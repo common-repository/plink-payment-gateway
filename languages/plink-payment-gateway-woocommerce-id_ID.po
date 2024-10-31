@@ -1,0 +1,259 @@
+# Copyright (C) 2022 Prismalink International
+# This file is distributed under the same license as the PLINK Payment Gateway Woocommerce plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: PLINK Payment Gateway Woocommerce 2.0.5\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/plinkpg-plugin\n"
+"Last-Translator: Prismalink Developer <developer@prismalink.co.id>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-01-17T16:17:01+07:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: plink-payment-gateway-woocommerce\n"
+
+#. Plugin Name of the plugin
+msgid "PLINK Payment Gateway Woocommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "http://plink.co.id/"
+msgstr ""
+
+#. Description of the plugin
+msgid "PLINK Payment gateway (Virtual Account, Credit Card, QRIS, Direct Debit)."
+msgstr ""
+
+#. Author of the plugin
+msgid "Prismalink International"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://prismalink.co.id/"
+msgstr ""
+
+#: index.php:30
+msgid "PLINK Payment Gateway"
+msgstr ""
+
+#: index.php:31
+msgid "PLINK Payment Gateway (Virtual Account, Credit Card, QRIS, Direct Debit.)"
+msgstr ""
+
+#: index.php:59
+msgid "Enable"
+msgstr "Aktifkan Plugin"
+
+#: index.php:61
+msgid "Enable PLINK Payment Gateway Module."
+msgstr "Mengaktifkan plugin PLINK Payment Gateway"
+
+#: index.php:65
+msgid "Title"
+msgstr "Judul"
+
+#: index.php:67
+msgid "The title which user sees when checkout."
+msgstr "Judul yang akan terlihat ketika melakukan checkout"
+
+#: index.php:71
+msgid "Phase"
+msgstr "Fase"
+
+#: index.php:77
+msgid "PLINK plugin phase."
+msgstr "Fase Plugin"
+
+#: index.php:80
+msgid "Secret Key"
+msgstr ""
+
+#: index.php:82
+msgid "Secret Key given by PLINK"
+msgstr "Secret key yang didapatkan dari PLINK"
+
+#: index.php:85
+msgid "Merchant ID"
+msgstr ""
+
+#: index.php:87
+msgid "Your ID given by PLINK"
+msgstr "Merchant ID yang didapatkan dari PLINK"
+
+#: index.php:90
+msgid "Merchant Key ID"
+msgstr ""
+
+#: index.php:92
+msgid "Your Key ID given by PLINK"
+msgstr "Merchant Key ID yang didapatkan dari PLINK"
+
+#: index.php:96
+msgid "Virtual account expired time*(in minutes)*"
+msgstr "Waktu Kadaluarsa transaksi Virtual Acoount *(dalam menit)*"
+
+#: index.php:98
+msgid "Transaction expired time for Virtual Account after order placed. <br>For example: 60 (for 1 hour), 1440 (for 1 day), 4320 (for 3 days), 10080 (for 1 week)"
+msgstr "Waktu kadaluarsa untuk Virtual Account setelah pesanan terkirim ke sistem PLINK. <br>Contoh nilai: 60 (1 jam), 1440 (1 hari), 4320 (3 hari), 10080 (1 minggu)"
+
+#: index.php:101
+msgid "Paymentpage"
+msgstr "Halaman Pembayaran"
+
+#: index.php:104
+msgid "New Tab"
+msgstr "Pindah halaman di tab baru"
+
+#: index.php:105
+msgid "Popup"
+msgstr "Jendela Popup"
+
+#: index.php:106
+msgid "Redirect Same Tab"
+msgstr "Pindah halaman di tab yang sama"
+
+#: index.php:108
+msgid "How paymentpage shows after place order"
+msgstr "Bagaimana paymentpage nanti akan ditampilkan"
+
+#: index.php:111
+msgid "Confirm text button "
+msgstr "Teks tombol konfirmasi"
+
+#: index.php:113
+msgid "Your text button for button confirm payment"
+msgstr "Teks untuk tombol konfirmasi pembayaran"
+
+#: index.php:116
+msgid "Other payment method text button"
+msgstr "Text metode pambayaran lain"
+
+#: index.php:118
+msgid "Your text button for button other payment method"
+msgstr "Teks untuk tombol metode pembayaran lain"
+
+#: index.php:121
+msgid "Description"
+msgstr "Deskripsi"
+
+#: index.php:122
+msgid "Checkout with PLINK Payment Gateway(Virtual Account, Credit Card, Direct Debit)"
+msgstr "Checkout dengan PLINK Payment Gateway (Virtual Account, Credit Card,QRIS,Direct Debit)"
+
+#: index.php:124
+msgid "This controls the description which the user sees during checkout."
+msgstr "Deskripsi plugin saat melakukan checkout"
+
+#: index.php:128
+msgid "Backend Callback Url"
+msgstr ""
+
+#: index.php:131
+msgid "*Backend callback url needed to be registered before start using this plugin"
+msgstr "Url yang perlu didaftarkan ke sistem PLINK sebelum plugin digunakan"
+
+#: index.php:137
+msgid "Frontend Callback Url"
+msgstr ""
+
+#: index.php:140
+msgid "Frontend callback url needed to be registered before start using this plugin"
+msgstr "Url yang perlu didaftarkan ke sistem PLINK sebelum plugin digunakan"
+
+#: index.php:184
+msgid "This payment method requires 'IDR' for currency"
+msgstr "Metode pembayaran ini hanya menerima Rupiah (Rp) untuk mata uang"
+
+#: index.php:188
+msgid "Minimum payment amount is IDR 10,000"
+msgstr "Minimum pembayaran Rp 10,000"
+
+#: index.php:191
+msgid "Merchant credential for this plugin is incomplete"
+msgstr "Mohon merchant untuk melengkapi kredensial sudah didapatkan dari PLINK"
+
+#: index.php:224
+msgid "Thank you for your order, please click confirmation button below to pay with PLINK Payment Gateway."
+msgstr "Terimakasih sudah melakukan pemesanan, mohon klik tombol konfirmasi dibawah ini untuk melanjutkan melakukan pembayaran dengan PLINK Payment Gateway"
+
+#: index.php:226
+msgid "Testing phase detected - real payment won't be created"
+msgstr "Fase test terdeteksi - pembayaran yang sebenarnya tidak akan dibuat"
+
+#: index.php:245
+msgid "Other payment method"
+msgstr "Metode pembayaran lain"
+
+#: index.php:246
+msgid "Confirm order"
+msgstr "Konfirmasi pemesanan"
+
+#: index.php:265
+msgid "Your order has expired please place order again"
+msgstr "Pesanan anda sudah kadaluarsa, mohon lakukan pemesanan lagi"
+
+#: index.php:266
+msgid "Order not found"
+msgstr "Pesanan tidak ditemukan"
+
+#: index.php:335
+msgid "Tax"
+msgstr "Pajak"
+
+#: index.php:336
+msgid "Shipping"
+msgstr "Ongkos kirim"
+
+#: index.php:562
+#: index.php:1171
+msgid "Something went wrong. "
+msgstr "Ada kesalahan. "
+
+#: index.php:805
+msgid "Please make a payment soon by using Virtual Account numbers in the PLINK window below. To check your payment status you can click the button check payment status"
+msgstr "Mohon segera melakukan pembayaran dengan menggunakan nomor VA (Virtual Account) di bawah ini. Untuk memerikasa status pembayaran anda bisa mengklik tombol cek status pembayaran"
+
+#: index.php:808
+msgid "Return to store"
+msgstr "Kembali ke toko"
+
+#: index.php:811
+msgid "Check Payment Status"
+msgstr "Periksa status pembayaran"
+
+#: index.php:828
+msgid "Go to checkout page"
+msgstr "Pergi ke halaman checkout"
+
+#: index.php:933
+msgid "Close"
+msgstr "Tutup"
+
+#: index.php:935
+msgid "Try again"
+msgstr "Coba  lagi"
+
+
+#: index.php:1160
+msgid "Credential is incomplete. Please check your credential to continue using this feature: "
+msgstr "Kredensial belum lengkap. Mohon untuk mengisi kredensial dengan lengkap untuk lanjut menggunakan fitur ini: "
+
+#: index.php:1152
+#: index.php:1156
+#: index.php:1160
+msgid "Payment status for merchant refno: "
+msgstr "Status pembayaran untuk merchant refno: "
+
+#: index.php:1152
+msgid " is SUCCED"
+msgstr " Sukses"
+
+#: index.php:1156
+msgid " is still PENDING"
+msgstr " Ditunda"
+
+#: index.php:1160
+msgid " is FAILED"
+msgstr " Gagal"
